@@ -1,0 +1,16 @@
+2022-01-30 09:49:42.357 +06 [18520] LOG:  starting PostgreSQL 14.1 on aarch64-apple-darwin20.6.0, compiled by Apple clang version 12.0.5 (clang-1205.0.22.9), 64-bit
+2022-01-30 09:49:42.358 +06 [18520] LOG:  listening on IPv6 address "::1", port 5432
+2022-01-30 09:49:42.358 +06 [18520] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2022-01-30 09:49:42.358 +06 [18520] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2022-01-30 09:49:42.360 +06 [18521] LOG:  database system was shut down at 2022-01-30 09:49:42 +06
+2022-01-30 09:49:42.361 +06 [18520] LOG:  database system is ready to accept connections
+2022-01-30 14:44:33.076 +06 [18520] LOG:  received smart shutdown request
+2022-01-30 14:44:33.080 +06 [18520] LOG:  background worker "logical replication launcher" (PID 18527) exited with exit code 1
+2022-01-30 14:44:33.080 +06 [18522] LOG:  shutting down
+2022-01-30 14:44:33.107 +06 [18520] LOG:  database system is shut down
+2022-01-31 00:54:15.071 +06 [7534] FATAL:  data directory "/Users/vasiliyshannikov/Documents/db" has invalid permissions
+2022-01-31 00:54:15.071 +06 [7534] DETAIL:  Permissions should be u=rwx (0700) or u=rwx,g=rx (0750).
+2022-01-31 00:54:30.436 +06 [7542] FATAL:  data directory "/Users/vasiliyshannikov/Documents/db" has invalid permissions
+2022-01-31 00:54:30.436 +06 [7542] DETAIL:  Permissions should be u=rwx (0700) or u=rwx,g=rx (0750).
+2022-01-31 00:57:45.405 +06 [7630] FATAL:  data directory "/Users/vasiliyshannikov/Documents/db" has invalid permissions
+2022-01-31 00:57:45.405 +06 [7630] DETAIL:  Permissions should be u=rwx (0700) or u=rwx,g=rx (0750).
